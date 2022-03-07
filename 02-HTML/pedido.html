@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>MWPasteles</title>
+
+    </head>
+
+    <body>
+        
+        <h1>Has tu pedido aquí</h1>
+
+        <form action="pedido.js">
+            
+            <h2>Datos de contacto</h2>
+
+            <label for="Nombre">Ingresa tu nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+            <br><br>
+
+            <label for="Telefono">Ingresa tu teléfono</label><br>
+            <input type="number" id="Telefono" name="Telefono">
+
+            <br><br>
+
+            <label for="email">Ingresa tu correo electrónico</label><br>
+            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com">
+
+            <br><br>
+
+            <h2>¿Como es tu pastel?</h2>
+
+            <label for="Pastel">Describenos tu pastel</label><br>
+            <input type="paragraph_text" id="Pastel" name="Pastel" placeholder="Descripción del Pastel">
+
+            <h3>¿Qué adornos lleva?</h3>
+
+            <input type="checkbox" id="estrella" name="estrella" value="Estrella">
+            <label for="estrella">Estrella de azúcar</label>
+            <input type="number" id="estrellasnumero" name="estrellasnumero" placeholder="¿Cuántas estrellas de azúcar?">
+            
+            <br><br>
+
+            <input type="checkbox" id="baston" name="baston" value="Bston">
+            <label for="baston">Bastones de azúcar</label>
+            <input type="number" id="bastonsnumero" name="bastonsnumero" placeholder="¿Cuántos bastones de azúcar?">
+
+            <br><br>
+
+            <input type="checkbox" id="perla" name="perla" value="Perla">
+            <label for="perla">Perlas de azúcar</label>
+            <input type="number" id="perlasnumero" name="perlasnumero" placeholder="¿Cuántas perlas de azúcar?">
+            
+            <h3>¿Quiéres sabores extra?</h3>
+
+            <input type="checkbox" id="fresa" name="fresa" value="Fresa">
+            <label for="fresa">Mermelada de fresa</label>
+
+            <br><br>
+
+            <input type="checkbox" id="nuez" name="nuez" value="Nuez">
+            <label for="nuez">Nuez</label>  
+
+            <br><br>
+
+            <input type="checkbox" id="zarzamora" name="zarzamora" value="Zarzamora">
+            <label for="zarzamora">Mermelada de zarzamora</label>  
+
+        </form>
+
+        <br><br>
+
+        <a href="./pedido.html">
+            <input type="button" value="Pedir">
+        </a>
+
+    </body>
+
+</html>
